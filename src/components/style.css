@@ -1,0 +1,63 @@
+body
+{
+    background-color: #F2F1EE;
+}
+
+
+.container
+{
+    background-color:#A0B7DC;
+    display: flex;
+    width: 30%;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box
+{
+    background-color: #A0D2F5;
+    margin:auto;
+    width: 27%;
+    padding: 1rem;
+    position: relative;
+    top: 9rem;
+    height: 60vh;
+
+
+}
+
+.inputField
+{
+    position: absolute;
+    left: 21%;
+    border-radius: 10rem;
+    height: 3rem;
+    width: 16rem;
+}
+
+.wave{
+    opacity: 0.3;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    background: white;
+}
+
+.wave-one
+{
+    animation: drift 5000ms infinite linear;
+    z-index: 2;
+    opacity: 2;
+}
+
+.info
+{
+    position: absolute;
+    top: 5rem;
+    left: 4rem;
+
+}
+
+
